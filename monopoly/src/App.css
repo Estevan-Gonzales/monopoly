@@ -1,3 +1,140 @@
+
+.grid {
+  display: grid;
+  height: 1000px;
+  width: 1000px;
+  grid-template: repeat(13, 13fr) / repeat(13, 13fr);
+}
+
+.space{
+  background-color: beige;
+  color: black;
+  font-size: xx-small;
+}
+
+.top {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-top: solid black 3px;
+  border-bottom: solid black 3px;
+  border-left: solid black 3px;
+}
+
+.jail {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 12;
+  grid-column-end: 14;
+  border: 3px solid black
+}
+
+
+.right {
+  grid-column-start: 12;
+  grid-column-end: 14;
+  border-bottom: solid black 3px;
+  border-left: solid black 3px;
+  border-right: solid black 3px;
+}
+
+.go {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 12;
+  grid-column-end: 14;
+  border-bottom: solid black 3px;
+  border-right: solid black 3px;
+}
+
+.bottom {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  border-top: solid black 3px;
+  border-right: solid black 3px;
+}
+
+.visiting {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border: solid black 3px;
+}
+
+.left {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-top: solid black 3px;
+  border-left: solid black 3px;
+  border-right: solid black 3px;
+}
+
+.parking {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-top: solid black 3px;
+  border-left: solid black 3px;
+}
+
+
+
+
+
+
+
+.railroad {
+  background-color: white;
+}
+
+.property-chance-hotpink {
+  background-color: hotpink;
+}
+
+.property-chance-skyblue {
+  background-color: skyblue;
+}
+
+.property-chance-pink {
+  background-color: pink;
+}
+
+.property-red {
+  background-color: red;
+}
+
+.property-yellow {
+  background-color: yellow;
+}
+
+.property-green {
+  background-color: green;
+}
+
+.property-blue {
+  background-color: blue;
+}
+
+.property-purple {
+  background-color: purple;
+}
+
+.property-skyblue {
+  background-color: skyblue;
+}
+
+.property-hotpink {
+  background-color: hotpink;
+}
+
+.property-orange {
+  background-color: orange;
+}
+
+
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -33,74 +170,11 @@
   }
 }
 
+
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
-}
-
-.grid {
-  display: grid;
-  border: 2px blue solid;
-  height: 1000px;
-  width: 1000px;
-  grid-template: repeat(13, 13fr) / repeat(13, 13fr);
-  gap: 5px;
-}
-
-.box {
-  background-color: beige;
-  color: black;
-  border-radius: 5px;
-  border: 2px dodgerblue solid;
-}
-
-.parking {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.jail {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 12;
-  grid-column-end: 14;
-}
-
-.go {
-  grid-row-start: 12;
-  grid-row-end: 14;
-  grid-column-start: 12;
-  grid-column-end: 14;
-}
-
-.visiting {
-  grid-row-start: 12;
-  grid-row-end: 14;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.top {
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.bottom {
-  grid-row-start: 12;
-  grid-row-end:14;
-}
-
-.right {
-  grid-column-start: 12;
-  grid-column-end: 14;
-}
-
-.left {
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
