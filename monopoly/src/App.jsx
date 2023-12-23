@@ -223,7 +223,7 @@ function App() {
   <div className="property-header property-purple"></div>
   <div className="property-go">
     <div className="rotate-bottom-right">
-      Go
+      GO
     </div>
   </div>
   <div className="property-body"></div>
