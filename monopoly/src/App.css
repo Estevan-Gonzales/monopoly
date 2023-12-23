@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 1000px;
+  width: 1000px;
+  grid-template: repeat(13, 13fr) / repeat(13, 13fr);
+  gap: 5px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+.parking {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.jail {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 12;
+  grid-column-end: 14;
+}
+
+.go {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 12;
+  grid-column-end: 14;
+}
+
+.visiting {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.top {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.bottom {
+  grid-row-start: 12;
+  grid-row-end:14;
+}
+
+.right {
+  grid-column-start: 12;
+  grid-column-end: 14;
+}
+
+.left {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
