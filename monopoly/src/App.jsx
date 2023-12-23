@@ -6,56 +6,231 @@ function App() {
   return (
     <>
   <div className="grid">
-    <div className="space parking">Free Parking</div>
 
-    <div className="space top property-red">Kentucky Avenue</div>
-    <div className="space top">Chance</div>
-    <div className="space top property-red">Indiana Avenue</div>
-    <div className="space top property-red">Illinois Avenue</div>
-    <div className="space top railroad">B.&.O Railroad</div>
-    <div className="space top property-yellow">Atlantic Avenue</div>
-    <div className="space top property-yellow">Vermont Avenue</div>
-    <div className="space top">Water Works</div>
-    <div className="space top property-yellow">Marvin Gardens</div>
+  <div className="property-free-parking">
+    <div className="rotate-top-left">
+      Free Parking
+    </div>
+  </div>
+  <div className="property-body"></div>
+  <div className="property-chance-top">
+    <div className="rotate-top">
+      Chance
+    </div>
+  </div>
+  <div className="property-body"></div>
+  <div className="property-body"></div>
+  <div className="property-bo-railroad">
+  <div className="rotate-top">
+      B.&O. Railroad
+    </div>
+  </div>
+  <div className="property-body"></div>
+  <div className="property-body"></div>
+  <div className="property-water-works">
+  <div className="rotate-top">
+      Water Works
+    </div>
+  </div>
+  <div className="property-body"></div>
+  <div className="property-go-to-jail">
+    <div className="rotate-top-right">
+      Go to Jail
+    </div>
+  </div>
+  <div className="property-header property-red"></div>
+  <div className="property-header property-red"></div>
+  <div className="property-header property-red"></div>
+  <div className="property-header property-yellow"></div>
+  <div className="property-header property-yellow"></div>
+  <div className="property-header property-yellow"></div>
 
-    <div className="space jail">Go to Jail</div>
+  <div className="property-body"></div>
+  <div className="property-body property-orange"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-header property-green"></div>
+  <div className="property-body"></div>
 
-    <div className="space left property-orange">New York Avenue</div>
-    <div className="space right property-green">Pacific Avenue</div>
-    <div className="space left property-orange">Tennesse Avenue</div>
-    <div className="space right property-green">North Carolina Avenue</div>
-    <div className="space left">Community Chest</div>
-    <div className="space right">Community Chest</div>
-    <div className="space left property-orange">St. James Place</div>
-    <div className="space right property-green">Pennsylvania Avenue</div>
-    <div className="space left railroad">Pennsylvania Railroad</div>
-    <div className="space right railroad">Short Line</div>
-    <div className="space left property-hotpink">Viriginia Avenue</div>
-    <div className="space right">Chance</div>
-    <div className="space left property-hotpink">States Avenue</div>
-    <div className="space right property-blue">Park Place</div>
+  <div className="property-body"></div>
+  <div className="property-body property-orange"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-header property-green"></div>
+  <div className="property-body"></div>
 
-    <div className="space left">Electric Company</div>
-    <div className="space right">Luxury Tax</div>
-    <div className="space left property-hotpink">St. James Place</div>
+  <div className="property-cc-left">
+    <div className="rotate-left">
+        Community Chest
+      </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-cc-right">
+    <div className="rotate-right">
+      Community Chest
+    </div>
+  </div>
+  <div className="property-body"></div>
+  <div className="property-body property-orange"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-header property-green"></div>
+  <div className="property-body"></div>
 
-    <div className="space right property-blue">Boardwalk</div>
+  <div className="property-pennsylvania-railroad">
+    <div className='rotate-left'>
+      Pennsylvania Railroad
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-short-line">
+    <div className="rotate-right">
+      Short Line
+    </div>
+  </div>
 
-    <div className="space visiting">Just Visiting</div>
-    <div className="space bottom property-skyblue">Connecticut Avenue</div>
-    <div className="space bottom property-skyblue">Vermont Avenue</div>
-    <div className="space bottom">Chance</div>
-    <div className="space bottom property-skyblue">Oriental Avenue</div>
-    <div className="space bottom railroad">Reading Railroad</div>
-    <div className="space bottom">Income Tax</div>
-    <div className="space bottom property-purple">Baltic Avenue</div>
-    <div className="space bottom">Community Chest</div>
-    <div className="space bottom property-purple">Mediterranean Avenue</div>
+  <div className="property-body"></div>
+  <div className="property-header property-hotpink"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-chance-right">
+  <div className="rotate-right">
+      Chance
+    </div>
+  </div>
 
-    <div className="space go">GO</div>
+  <div className="property-body"></div>
+  <div className="property-header property-hotpink"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-header property-blue"></div>
+  <div className="property-body"></div>
 
+  <div className="property-electric-company">
+    <div className="rotate-left">
+      Electric Company
+    </div>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-luxury-tax">
+  <div className="rotate-right">
+      Luxury Tax
+    </div>
+  </div>
 
-
+  <div className="property-body"></div>
+  <div className="property-header property-hotpink"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div className="property-header property-blue"></div>
+  <div className="property-body"></div>
+  
+  <div className="property-just-visiting">
+    <div className='rotate-bottom-left'>
+      Just Visiting
+    </div>
+  </div>
+  <div className="property-header property-lightblue"></div>
+  <div className="property-header property-lightblue"></div>
+  <div className="property-chance-bottom">
+      <div className="rotate-bottom">
+        Chance
+      </div>
+    </div>
+  <div className="property-header property-lightblue"></div>
+  <div className="property-reading-railroad">
+    <div className="rotate-bottom">
+        Reading Railroad
+      </div>
+  </div>
+  <div className="property-income-tax">
+    <div className="rotate-bottom">
+        Income Tax
+      </div>
+  </div>
+  <div className="property-header property-purple"></div>
+  <div className="property-cc-bottom">
+    <div className="rotate-bottom">
+        Community Chest
+      </div>
+  </div>
+  <div className="property-header property-purple"></div>
+  <div className="property-go">
+    <div className="rotate-bottom-right">
+      Go
+    </div>
+  </div>
+  <div className="property-body"></div>
+  <div className="property-body"></div>
+  <div className="property-body"></div>
+  <div className="property-body"></div>
+  <div className="property-body"></div>
 
   </div>
     </>

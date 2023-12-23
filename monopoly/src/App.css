@@ -3,90 +3,254 @@
   display: grid;
   height: 1000px;
   width: 1000px;
-  grid-template: repeat(13, 13fr) / repeat(13, 13fr);
+  grid-template: 2fr 1fr repeat(9, 2fr) 1fr 2fr / 2fr 1fr repeat(9, 2fr) 1fr 2fr;
+  border: solid royalblue 10px;
 }
 
-.space{
-  background-color: beige;
-  color: black;
-  font-size: xx-small;
+.rotate-left {
+  rotate: 90deg;
+  max-width: 90px;
 }
 
-.top {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  border-top: solid black 3px;
-  border-bottom: solid black 3px;
-  border-left: solid black 3px;
+.rotate-right {
+  rotate: 270deg;
+  max-width: 90px;
 }
 
-.jail {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 12;
-  grid-column-end: 14;
-  border: 3px solid black
+.rotate-top {
+  rotate: 180deg;
+  margin-bottom: 10px;
 }
 
-
-.right {
-  grid-column-start: 12;
-  grid-column-end: 14;
-  border-bottom: solid black 3px;
-  border-left: solid black 3px;
-  border-right: solid black 3px;
+.rotate-bottom {
+  margin-top: 10px;
 }
 
-.go {
-  grid-row-start: 12;
-  grid-row-end: 14;
-  grid-column-start: 12;
-  grid-column-end: 14;
-  border-bottom: solid black 3px;
-  border-right: solid black 3px;
+.rotate-top-left {
+  rotate: 135deg;
 }
 
-.bottom {
-  grid-row-start: 12;
-  grid-row-end: 14;
-  border-top: solid black 3px;
-  border-right: solid black 3px;
+.rotate-top-right {
+  rotate: 225deg;
 }
 
-.visiting {
-  grid-row-start: 12;
-  grid-row-end: 14;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  border: solid black 3px;
+.rotate-bottom-left {
+  rotate: 45deg;
 }
 
-.left {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  border-top: solid black 3px;
-  border-left: solid black 3px;
-  border-right: solid black 3px;
+.rotate-bottom-right {
+  rotate: 315deg;
 }
 
-.parking {
+.property-free-parking {
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 3;
-  border-top: solid black 3px;
-  border-left: solid black 3px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.property-chance-top {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  background-color: skyblue;
+  border: solid black 2px;
+  display: flex;
+  justify-content: center;
+}
 
+.property-bo-railroad {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  background-color: grey;
+  border: solid black 2px;
+  display: flex;
+  justify-content: center;
+}
 
-
-
-
-
-.railroad {
+.property-water-works {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 10;
+  grid-column-end: 11;
   background-color: white;
+  border: solid black 2px;
+  display: flex;
+  justify-content: center;
 }
+
+.property-cc-left {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: skyblue;
+  border: solid black 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.property-cc-right {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 12;
+  grid-column-end: 14;
+  background-color: skyblue;
+  border: solid black 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.property-pennsylvania-railroad {
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: grey;
+  border: solid black 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.property-short-line {
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 12;
+  grid-column-end: 14;
+  background-color: grey;
+  border: solid black 2px;
+  display: flex;
+  align-items: center;
+}
+
+.property-chance-right {
+  grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 12;
+  grid-column-end: 14;
+  background-color: red;
+  border: solid black 2px;
+  display: flex;
+  align-items: center;
+}
+
+.property-electric-company {
+  grid-row-start: 10;
+  grid-row-end: 11;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: yellow;
+  border: solid black 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.property-luxury-tax {
+  grid-row-start: 10;
+  grid-row-end: 11;
+  grid-column-start: 12;
+  grid-column-end: 14;
+  background-color: yellow;
+  border: solid black 2px;
+  display: flex;
+  align-items: center;
+}
+
+.property-chance-bottom {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  background-color: hotpink;
+  border: solid black 2px;
+}
+
+.property-reading-railroad {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  background-color: grey;
+  border: solid black 2px;
+}
+
+.property-income-tax {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 8;
+  grid-column-end: 9;
+  background-color: white;
+  border: solid black 2px;
+}
+
+.property-cc-bottom {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 10;
+  grid-column-end: 11;
+  background-color: skyblue;
+  border: solid black 2px;
+}
+
+
+
+.property-header {
+  background-color: blue;
+  border: solid black 2px;
+
+}
+
+.property-body {
+  background-color: beige;
+  border: solid black 2px;
+}
+
+
+
+.property-go-to-jail {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 12;
+  grid-column-end: 14;
+  background-color: skyblue;
+  border: solid black 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-just-visiting {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: orange;
+  border: solid black 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-go {
+  grid-row-start: 12;
+  grid-row-end: 14;
+  grid-column-start: 12;
+  grid-column-end: 14;
+  background-color: red;
+  border: solid black 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .property-chance-hotpink {
   background-color: hotpink;
@@ -120,8 +284,8 @@
   background-color: purple;
 }
 
-.property-skyblue {
-  background-color: skyblue;
+.property-lightblue {
+  background-color: lightblue;
 }
 
 .property-hotpink {
