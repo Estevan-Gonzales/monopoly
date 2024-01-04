@@ -23,5 +23,6 @@ body {
   min-height: 100vh;
   color: black;
   text-wrap: wrap;
-  font-size: small;
+  font-size: 10px;
+  font-weight: bold;
 }

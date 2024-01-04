@@ -12,27 +12,51 @@ function App() {
       Free Parking
     </div>
   </div>
-  <div className="property-body"></div>
+  <div className="property-body">
+    <div className="property-text-top">
+      KENTUCKY AVENUE
+    </div>
+  </div>
   <div className="property-chance-top">
     <div className="rotate-top">
       Chance
     </div>
   </div>
-  <div className="property-body"></div>
-  <div className="property-body"></div>
+  <div className="property-body">
+    <div className="property-text-top">
+      INDIANA AVENUE
+    </div>
+  </div>
+  <div className="property-body">
+    <div className="property-text-top">
+      ILLINOIS AVENUE
+    </div>
+  </div>
   <div className="property-bo-railroad">
   <div className="rotate-top">
       B.&O. Railroad
     </div>
   </div>
-  <div className="property-body"></div>
-  <div className="property-body"></div>
+  <div className="property-body">
+    <div className="property-text-top">
+      ATLANTIC AVENUE
+    </div>
+  </div>
+  <div className="property-body">
+    <div className="property-text-top">
+      VENTOR AVENUE
+    </div>
+  </div>
   <div className="property-water-works">
-  <div className="rotate-top">
+    <div className="rotate-top">
       Water Works
     </div>
   </div>
-  <div className="property-body"></div>
+  <div className="property-body">
+    <div className="property-text-top">
+      MARVIN AVENUE
+    </div>
+  </div>
   <div className="property-go-to-jail">
     <div className="rotate-top-right">
       Go to Jail
@@ -45,8 +69,14 @@ function App() {
   <div className="property-header property-yellow"></div>
   <div className="property-header property-yellow"></div>
 
-  <div className="property-body"></div>
-  <div className="property-body property-orange"></div>
+  <div className="property-body property-text-left">
+  <div>
+      NEW YORK AVENUE
+    </div>
+  </div>
+  <div className="property-header property-orange">
+
+  </div>
   <div></div>
   <div></div>
   <div></div>
@@ -57,7 +87,9 @@ function App() {
   <div></div>
   <div></div>
   <div className="property-header property-green"></div>
-  <div className="property-body"></div>
+  <div className="property-body property-text-right">
+
+  </div>
 
   <div className="property-body"></div>
   <div className="property-body property-orange"></div>
@@ -93,7 +125,7 @@ function App() {
     </div>
   </div>
   <div className="property-body"></div>
-  <div className="property-body property-orange"></div>
+  <div className="property-header property-orange"></div>
   <div></div>
   <div></div>
   <div></div>

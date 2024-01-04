@@ -5,6 +5,20 @@
   width: 1000px;
   grid-template: 2fr 1fr repeat(9, 2fr) 1fr 2fr / 2fr 1fr repeat(9, 2fr) 1fr 2fr;
   border: solid royalblue 10px;
+  text-transform: uppercase;
+}
+
+.property-text-top {
+  rotate: 180deg;
+  margin-top: 45px;
+}
+
+.property-text-left {
+  transform: rotate(90deg);
+}
+
+.property-text-left {
+  transform: rotate(270deg);
 }
 
 .rotate-left {
